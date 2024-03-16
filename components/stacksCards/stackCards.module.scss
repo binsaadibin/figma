@@ -3,35 +3,40 @@
     overflow: hidden;
     margin-bottom: 0;
     padding-bottom: 0px; // Remove bottom margin
-}
-
-.card {
+  }
+  
+  .card {
     width: 100%;
     height: 251.98px;
     padding: 55.09px 33.59px 33.59px 33.59px;
     border-radius: 33.6px;
     background: linear-gradient(to bottom left, #9d370f, #222222);
     margin: 20px 10px;
-
+  
     .stackLogo {
-        width: 142.8px;
-        height: 24.19px;
-
-        @media screen and (min-width: 767px) {
-            // Add styles here for larger screens
-        }
+      width: 142.8px;
+      height: 24.19px;
+  
+      @media screen and (min-width: 767px) {
+        // Add styles here for larger screens
+      }
     }
-
+  
     p {
-        margin-top: 98.24px;
-        font-size: 16px;
-        font-weight: 400;
-        letter-spacing: 0em;
-        text-align: left; /* Push paragraph to the bottom */
-        margin-right: 40px; /* Add margin to the right of the paragraph */
-
-        @media screen and (min-width: 767px) {
-            // Add styles here for larger screens
-        }
+      margin-top: 98.24px;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 0em;
+      text-align: left; /* Push paragraph to the bottom */
+      margin-right: 40px; /* Add margin to the right of the paragraph */
+  
+      @media screen and (min-width: 767px) {
+        // Add styles here for larger screens
+      }
     }
-}
+  }
+  
+  .slick-slide {
+    margin-right: 30px; /* Adjust the margin between slides */
+  }
+  

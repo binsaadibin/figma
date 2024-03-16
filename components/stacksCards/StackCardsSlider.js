@@ -32,7 +32,7 @@ const StackCardsSlider = () => {
     dots: false,
     infinite: true,
     speed: 9000, // Adjust the speed of slide transition
-    slidesToShow: 4, // Show 3 cards in large screens
+    slidesToShow: 3, // Show 3 cards in large screens
     slidesToScroll: 1,
     autoplay: true, // Enable autoplay
     autoplaySpeed: 0.1, // Set autoplay speed to 0 for continuous sliding
