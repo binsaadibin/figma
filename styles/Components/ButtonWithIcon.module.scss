@@ -24,7 +24,7 @@
   cursor: pointer;
   padding: 5px 20px 10px 15px;
   background-color: transparent; /* Set background color to transparent */
-  border: none; /* Remove border */
+  border: 1px solid white; /* Remove border */
 
   @media screen and (min-width: 500px) {
       width: 148.02px;

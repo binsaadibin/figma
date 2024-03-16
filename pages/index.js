@@ -33,9 +33,9 @@ const Home = () => {
         <section id="testimonials">
          <Testimonials/>
         </section>
-        <section id="contact">
+        {/* <section id="contact">
          <Contact/>
-        </section>
+        </section> */}
       </main>
       <Footer />
     </div>

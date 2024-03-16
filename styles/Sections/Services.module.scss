@@ -1,7 +1,6 @@
 @import "../variables.scss";
 
 .Services {
-    border: 1px solid red;
 
     .menueButton {
         width: 122.28px;
@@ -9,7 +8,6 @@
         background-color: $secondary-color;
         padding: 13px 7.28px 12.66px 17px;
         border-radius: 16.8px 16.8px 0px 0px;
-        border: 1px solid blue;
 
         // @media screen and (min-width: 767px) {
         // }
@@ -54,7 +52,6 @@
         .flexBox {
             margin-top: 40px;
             padding: 0px;
-            border: 2px solid green;
 
             @media screen and (min-width: 500px) {
                 // Add styles for larger screens if needed

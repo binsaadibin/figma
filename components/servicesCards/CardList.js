@@ -79,7 +79,7 @@ const CardList = () => {
         {cardsToShow === 3 && (
           <div className="col-12 px-0">
             <div className="mb-3 mb-md-3 px-0 px-md-2">
-              <button className={`btn ${styles.viewButton}`} onClick={handleViewMore}>View More</button>
+              <button className={`btn ${styles.viewButton}`} onClick={handleViewMore}>View All</button>
             </div>
           </div>
         )}

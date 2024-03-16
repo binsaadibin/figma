@@ -1,7 +1,6 @@
 .sliderContainer {
   height: 90px;
   width: 100%;
-  border: 1px solid red;
 
   @media screen and (min-width: 500px) {
       margin-left: 220px;
@@ -13,7 +12,6 @@
       height: auto; /* Allow the height to adjust automatically based on content */
       padding: 10px 20px 10px 10px;
       border-radius: 999px;
-      border: 2px red solid;
       margin-right: 10px;
 
       @media screen and (min-width: 500px) {
@@ -64,6 +62,8 @@
       }
   }
 
+
+
   .flexBox {
       display: flex;
       justify-content: space-evenly;
@@ -71,7 +71,6 @@
 
       .boxOne,
       .boxTwo {
-          border: 2px solid red;
           height: 60px;
       }
   }

@@ -13,7 +13,9 @@ function Testimonials() {
       <h1>Hear from our satisfied customers</h1>
 
       <div className={styles.flexBox}>
-        <div className={styles.boxOne}>
+
+       <div className={styles.backGround}>
+       <div className={styles.boxOne}>
       <Image src="/svg_files/Image (2).svg" alt="Image (2).svg" height={50} width={50}/>
         </div>
         
@@ -22,6 +24,7 @@ function Testimonials() {
             <h3><span>Perry Brill,</span> CEO SpexBot</h3>
             <p>"The team quickly understood our business requirements and were proactive and flexible with our ongoing support and developments. You can definitely trust them for complex project requirements as they are top-notch in their field and we can only recommend it."</p>
         </div>
+       </div>
         <div className={styles.testimonialsCards}>
             <TestimonialsCards/>
         </div>
