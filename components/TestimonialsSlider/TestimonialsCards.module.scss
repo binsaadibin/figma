@@ -1,0 +1,78 @@
+.sliderContainer {
+  height: 90px;
+  width: 100%;
+  border: 1px solid red;
+
+  @media screen and (min-width: 500px) {
+      margin-left: 220px;
+  }
+
+  .slide {
+      display: flex;
+      width: 100%; /* Set the width to 100% for responsiveness */
+      height: auto; /* Allow the height to adjust automatically based on content */
+      padding: 10px 20px 10px 10px;
+      border-radius: 999px;
+      border: 2px red solid;
+      margin-right: 10px;
+
+      @media screen and (min-width: 500px) {
+          /* Adjust styles for larger screens if needed */
+      }
+
+      &:active,
+      &:visited {
+          background-color: white;
+      }
+
+      &:hover {
+          background-color: white;
+
+          p {
+              color: black;
+          }
+
+          h2 {
+              color: black;
+              font-size: 18px;
+              font-weight: 600;
+              line-height: 22px;
+              letter-spacing: 0px;
+              text-align: left;
+          }
+      }
+
+      img {
+          width: 60px;
+          height: 60px;
+      }
+
+      h2 {
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 22px;
+          letter-spacing: 0px;
+          text-align: left;
+      }
+
+      p {
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 18px;
+          letter-spacing: 0px;
+          text-align: left;
+      }
+  }
+
+  .flexBox {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+
+      .boxOne,
+      .boxTwo {
+          border: 2px solid red;
+          height: 60px;
+      }
+  }
+}

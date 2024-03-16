@@ -1,0 +1,43 @@
+.icon {
+  width: 14.06px;
+  height: 13.98px;
+  color: aliceblue;
+  margin-left: 9px;
+  padding-top: 20px;
+
+  @media screen and (min-width: 767px) {
+      /* Add styles for larger screens if needed */
+  }
+}
+
+.button {
+  width: 123px;
+  height: 36px;
+  border-radius: 116px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white; /* Ensure text color is set to white */
+  cursor: pointer;
+  padding: 5px 20px 10px 15px;
+  background-color: transparent; /* Set background color to transparent */
+  border: none; /* Remove border */
+
+  @media screen and (min-width: 500px) {
+      width: 148.02px;
+      height: 48px;
+      font-size: 16px;
+      line-height: 20px;
+      /* Add other styles for larger screens if needed */
+  }
+
+  @media screen and (min-width: 767px) {
+      width: 148.02px;
+      height: 48px;
+      border-radius: 116px; /* Set border radius if needed */
+      /* Add other styles for even larger screens if needed */
+  }
+}

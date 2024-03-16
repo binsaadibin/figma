@@ -1,0 +1,108 @@
+@import "../variables.scss";
+
+.testimonials {
+  margin-top: 120px;
+
+  .ListWithOutUl {
+    border-radius: 16.8px 16.8px 0px 0px;
+    width: 171px;
+    height: auto;
+    padding: 13px 35px 13px 17px;
+  }
+
+  h1 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 16px;
+    margin-right: 352px;
+
+    @media screen and (min-width: 500px) {
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 32px;
+      margin-top: 10px;
+    }
+  }
+
+  .flexBox {
+    display: block;
+    padding: 16px;
+    width: 100%;
+    height: auto;
+    margin-top: 32px;
+    top: 121px;
+    border-radius: 16px;
+    background-color: $secondary-color;
+    justify-content: center;
+
+    @media screen and (min-width: 500px) {
+      width: 100%;
+      height: auto;
+      top: 187px;
+      left: 1px;
+      border-radius: 999px 0px 0px 999px;
+    }
+  }
+
+  .boxOne {
+    img {
+      width: 320px;
+      height: 214.29px;
+      border-radius: 7.81px;
+      margin: 16px 23px 0px 23px;
+
+      @media screen and (min-width: 500px) {
+        margin-left: 287px;
+        margin-top: 40px;
+      }
+    }
+  }
+
+  .boxTwo {
+    margin-top: 32px;
+
+    @media screen and (min-width: 500px) {
+      margin-left: 156px;
+      margin-right: 106px;
+      border: 3px solid red;
+      margin-bottom: 32px;
+    }
+
+    h3 {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: left;
+
+      span {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: red;
+      }
+    }
+
+    p {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+
+      @media screen and (min-width: 500px) {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 25px;
+      }
+    }
+  }
+}

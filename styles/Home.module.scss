@@ -1,0 +1,50 @@
+/* styles/Home.module.scss */
+.container {
+    overflow: hidden;
+  }
+  
+  .section {
+    padding: 50px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  #home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #about,
+  #services,
+  #projects,
+  #contact {
+    min-height: 100vh;
+  }
+  
+  #home h1 {
+    font-size: 3rem;
+  }
+  
+  #about h2,
+  #services h2,
+  #projects h2,
+  #contact h2 {
+    margin-bottom: 20px;
+  }
+  
+  #contact form {
+    margin-top: 20px;
+  }
+  
+  /* Add styles for other sections as needed */
+  .section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .section p {
+    line-height: 1.6;
+  }
+  

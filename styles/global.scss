@@ -1,0 +1,25 @@
+@import './variables.scss';
+
+
+*{
+    font-family:$font-family-inter;
+    font-size: $font-size-base;
+    color:$primary-tex-color;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+  padding: 0px 16px;
+  background-color:$primary-color;
+  @media screen and (min-width: 500px) {
+    padding: 0px 24px;      
+                
+  }
+  @media screen and (min-width:767px) {
+    padding: 34px 64px; 
+}
+}
+  
+  /* Add more global styles as needed */
+  

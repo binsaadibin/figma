@@ -1,0 +1,57 @@
+@import "../variables.scss";
+
+.headerMainTag {
+    height: auto; // Change height to auto to accommodate varying content heights
+    background-color: $primary-color;
+    width: 100%;
+    padding-bottom: 0px;
+    border-bottom: 2px solid #abafd7;
+    padding-top: 30px;
+
+    @media screen and (min-width: 500px) {
+        // Add specific styles for larger screens if needed
+    }
+
+    .navbarLogo {
+        width: 78px;
+        height: 30.29px;
+        margin-left: -10px;
+        margin-top: 37px;
+        border: 1px solid green;
+
+        @media screen and (min-width: 767px) {
+            margin-top: 5px;
+        }
+    }
+
+    .navbarToggler {
+        border: none !important;
+        width: 34px;
+        height: 34px;
+        padding: 0px !important;
+        margin-top: 40px;
+
+        .menuIcon {
+            width: 100%;
+            height: 100% !important;
+            background-color: transparent;
+
+            // Add specific styles for larger screens if needed
+        }
+    }
+
+    .nav-link {
+        font-family: $font-family-inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #ffffff;
+        text-decoration: none;
+
+        @media screen and (min-width: 767px) {
+            margin-top: 12px;
+        }
+    }
+}

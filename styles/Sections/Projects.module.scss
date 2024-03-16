@@ -1,0 +1,102 @@
+@import "../variables.scss";
+
+.projects {
+  width: 100%;
+  height: auto;
+}
+
+.ListWithOutUl {
+  width: 120px;
+  height: 43px;
+  background-color: $secondary-color;
+  padding: 13px 16.91px;
+  border-radius: 16.8px 16.8px 0px 0px;
+}
+
+.maindiv {
+  background-color: $secondary-color;
+  border-radius: 0px 32px 0px 32px;
+
+  .framework {
+    display: block;
+    padding: 24px 15px;
+
+    @media screen and (min-width: 500px) {
+      display: flex;
+    }
+
+    @media screen and (min-width: 767px) {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .frame1,
+    .frame2,
+    .frame3 {
+      width: 100%;
+      height: auto;
+      border-radius: 10.23px;
+      margin-bottom: 24px;
+
+      @media screen and (min-width: 767px) {
+        display: flex;
+      }
+
+      .frame1 {
+        @media screen and (min-width: 500px) {
+          display: none;
+        }
+      }
+
+      .frame2 {
+        @media screen and (min-width: 500px) {
+          display: flex;
+        }
+      }
+
+      .frame3 {
+        @media screen and (min-width: 500px) {
+          /* Add specific styles if needed */
+        }
+      }
+    }
+  }
+}
+
+.icons {
+  width: 190px;
+  height: 80px;
+  gap: 10px;
+  float: right;
+  margin-top: -10px;
+  padding: 15px 30px;
+  text-align: center;
+  border-radius: 0px 0px 33.6px 33.6px;
+  background-color: $secondary-color;
+
+  @media screen and (min-width: 767px) {
+    width: 265px;
+    height: 107px;
+    top: 887px;
+    left: 1047px;
+    padding: 18px 77.82875061035156px 28.609375px 68.00062561035156px;
+    border-radius: 0px 0px 33.599998474121094px 33px;
+    display: flex;
+  }
+
+  .iconOne,
+  .iconTwo {
+    font-size: 30px;
+    gap: 10px;
+    padding: 16.8px 14.95px 16.79px 14.94px;
+    border-radius: 16.8px;
+    background-color: $primary-color;
+
+    @media screen and (min-width: 767px) {
+      padding: 16.80078125px 14.952499389648438px 16.78921890258789px 14.9375px;
+      border-radius: 16.799999237060547px;
+      border: 1px solid green;
+      font-size: 35px;
+    }
+  }
+}
