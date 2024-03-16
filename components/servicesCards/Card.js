@@ -15,7 +15,7 @@ const Card = ({ title, content }) => {
       <div className={styles.buttonContainer}>
         <button className={styles.cardBtn}>View More</button>
         <div className={styles.cardIcon}>
-          <Image src="/svg_files/christmas-stars 1 (Traced) (1).svg" width={50} height={50} className={styles.icon} />
+          <Image src="/svg_files/christmas-stars 1 (Traced) (1).svg" alt="my image" width={50} height={50} className={styles.icon} />
         </div>
       </div>
     </div>

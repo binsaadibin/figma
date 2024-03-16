@@ -59,13 +59,14 @@ const StackCardsSlider = () => {
   return (
     <div className={styles.carouselContainer}>
       <Slider {...settings} className={` ${styles.carousel}`}>
-        {[...Array(8)].map((_,) => (
-          <div className={`me-5 ${styles.card}`}>
-            <Image src="/svg_files/stackLogo.svg" alt="stackLogo.svg" width={50} height={50} className={styles.stackLogo} />
-            <p>Finalists Webflow Partner Awards 2021 & 2022</p>
-          </div>
-        ))}
-      </Slider>
+  {[...Array(8)].map((_, index) => (
+    <div key={index} className={`me-5 ${styles.card}`}>
+      <Image src="/svg_files/stackLogo.svg" alt="stackLogo.svg" width={50} height={50} className={styles.stackLogo} />
+      <p>Finalists Webflow Partner Awards 2021 & 2022</p>
+    </div>
+  ))}
+</Slider>
+
     </div>
   );
 };
