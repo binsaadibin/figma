@@ -12,7 +12,7 @@ const StackCardsSlider = () => {
       const slides = document.querySelectorAll(`.${styles.carousel} .slick-slide`);
       if (slides) {
         slides.forEach((slide) => {
-          slide.style.marginRight = '20px'; // Adjust the margin as needed
+          slide.style.marginRight = '30px'; // Adjust the margin as needed
         });
       }
     };

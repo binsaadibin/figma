@@ -9,8 +9,10 @@
         padding: 13px 7.28px 12.66px 17px;
         border-radius: 16.8px 16.8px 0px 0px;
 
-        // @media screen and (min-width: 767px) {
-        // }
+        @media screen and (min-width: 767px) {
+            margin-right: 40px;
+           
+        }
 
     }
 
@@ -18,12 +20,11 @@
         background-color: $secondary-color;
         border-radius: 0px 16px 0px 16px;
         padding: 23px;
-
         // @media screen and (min-width: 500px) {
         // }
 
         @media screen and (min-width: 767px) {
-            margin: 0px 30px;
+            // margin: 0px 30px;
         }
 
         h1 {
@@ -70,17 +71,14 @@
         border-radius: 0px 0px 16px 16px;
         float: right;
 
-        @media screen and (min-width: 500px) {
-            // Add styles for larger screens if needed
-        }
 
         @media screen and (min-width: 767px) {
             width: 265px;
             height: 107px;
-            top: 1285px;
             left: 1046px;
             padding: 30px 41.30921936035156px 29px 58.80078125px;
             border-radius: 0px 0px 33.599998474121094px 33px;
+            margin-top: -30px;
         }
     }
 }

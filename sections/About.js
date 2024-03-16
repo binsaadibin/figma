@@ -10,7 +10,7 @@ export default function About() {
       </div>
          <div className={styles.flexBox}>
           <div className={styles.boxOne}>
-          <Image src="/images/image (4).png" alt=" image (4).png"  width={50} height={50} className={styles.image}/>
+          <Image src="/svg_files/image (3).svg" alt=" image (4).png"  width={50} height={50} className={styles.image}/>
 
           </div>
           <div className={styles.boxTwo}>
